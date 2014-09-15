@@ -1,0 +1,250 @@
+0    [LargeThreadPool-thread-4] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+4    [LargeThreadPool-thread-4] INFO  org.jboss.weld.Version  - WELD-000900: SNAPSHOT
+332  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000124: Using 8 threads for bootstrap
+399  [LargeThreadPool-thread-4] WARN  org.jboss.weld.Interceptor  - WELD-001700: Interceptor annotation class javax.ejb.PostActivate not found, interception based on it is not enabled
+401  [LargeThreadPool-thread-4] WARN  org.jboss.weld.Interceptor  - WELD-001700: Interceptor annotation class javax.ejb.PrePassivate not found, interception based on it is not enabled
+402  [LargeThreadPool-thread-4] WARN  org.jboss.weld.Interceptor  - WELD-001700: Interceptor annotation class javax.interceptor.AroundConstruct not found, interception based on it is not enabled
+429  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%ApplicationContext
+435  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Reflection  - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+437  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%SingletonContext
+442  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundSessionContext
+445  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundConversationContext
+447  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundRequestContext
+448  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%RequestContext
+450  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%DependentContext
+452  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%HttpSessionContext
+454  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%HttpSessionDestructionContext
+455  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%HttpConversationContext
+457  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%HttpRequestContext
+458  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%EjbRequestContext
+509  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+511  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+513  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+515  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+580  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000103: Enabled alternatives for Weld BeanManager for TransactionTestEAR [bean count=2]: (empty collection)
+582  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000104: Enabled decorator types for Weld BeanManager for TransactionTestEAR [bean count=2]: (empty collection)
+583  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000105: Enabled interceptor types for Weld BeanManager for TransactionTestEAR [bean count=2]: (empty collection)
+600  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001542: Retrieving/generating proxy class org.jboss.weldx.transaction.UserTransaction$1742620069$Proxy$_$$_Weld$Proxy$
+620  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public java.lang.String java.lang.Object.toString()
+622  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void javax.transaction.UserTransaction.begin() throws javax.transaction.NotSupportedException,javax.transaction.SystemException
+624  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void javax.transaction.UserTransaction.commit() throws javax.transaction.HeuristicMixedException,javax.transaction.HeuristicRollbackException,java.lang.IllegalStateException,javax.transaction.RollbackException,java.lang.SecurityException,javax.transaction.SystemException
+627  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract int javax.transaction.UserTransaction.getStatus() throws javax.transaction.SystemException
+629  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void javax.transaction.UserTransaction.rollback() throws java.lang.IllegalStateException,java.lang.SecurityException,javax.transaction.SystemException
+631  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void javax.transaction.UserTransaction.setRollbackOnly() throws java.lang.IllegalStateException,javax.transaction.SystemException
+634  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void javax.transaction.UserTransaction.setTransactionTimeout(int) throws javax.transaction.SystemException
+636  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void org.jboss.weld.interceptor.proxy.LifecycleMixin.lifecycle_mixin_$$_postConstruct()
+638  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void org.jboss.weld.interceptor.proxy.LifecycleMixin.lifecycle_mixin_$$_preDestroy()
+643  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001543: Created Proxy class of type class org.jboss.weldx.transaction.UserTransaction$1742620069$Proxy$_$$_Weld$Proxy$ supporting interfaces [interface javax.transaction.UserTransaction, interface java.io.Serializable, interface org.jboss.weld.interceptor.proxy.LifecycleMixin, interface org.jboss.weld.interceptor.util.proxy.TargetInstanceProxy, interface org.jboss.weld.bean.proxy.ProxyObject]
+648  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001542: Retrieving/generating proxy class org.jboss.weld.security.Principal$2077653312$Proxy$_$$_Weld$Proxy$
+649  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public java.lang.String java.lang.Object.toString()
+651  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract boolean java.security.Principal.equals(java.lang.Object)
+653  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract java.lang.String java.security.Principal.getName()
+654  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract int java.security.Principal.hashCode()
+656  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void org.jboss.weld.interceptor.proxy.LifecycleMixin.lifecycle_mixin_$$_postConstruct()
+658  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void org.jboss.weld.interceptor.proxy.LifecycleMixin.lifecycle_mixin_$$_preDestroy()
+662  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001543: Created Proxy class of type class org.jboss.weld.security.Principal$2077653312$Proxy$_$$_Weld$Proxy$ supporting interfaces [interface java.security.Principal, interface java.io.Serializable, interface org.jboss.weld.interceptor.proxy.LifecycleMixin, interface org.jboss.weld.interceptor.util.proxy.TargetInstanceProxy, interface org.jboss.weld.bean.proxy.ProxyObject]
+679  [weld-worker-4] TRACE org.jboss.weld.Bean  - WELD-001536: Found [] constructors annotated with @Inject for [EnhancedAnnotatedTypeImpl] public @RequestScoped class com.ibm.cdi.helloworld.HelloBean
+679  [weld-worker-3] TRACE org.jboss.weld.Bean  - WELD-001536: Found [] constructors annotated with @Inject for [EnhancedAnnotatedTypeImpl] public @WebServlet class com.ibm.cdi.helloworld.HelloServlet
+682  [weld-worker-4] TRACE org.jboss.weld.Bean  - WELD-000002: Exactly one constructor ([EnhancedAnnotatedConstructorImpl] public com.ibm.cdi.helloworld.HelloBean()) defined, using it as the bean constructor for [EnhancedAnnotatedTypeImpl] public @RequestScoped class com.ibm.cdi.helloworld.HelloBean
+684  [weld-worker-3] TRACE org.jboss.weld.Bean  - WELD-000002: Exactly one constructor ([EnhancedAnnotatedConstructorImpl] public com.ibm.cdi.helloworld.HelloServlet()) defined, using it as the bean constructor for [EnhancedAnnotatedTypeImpl] public @WebServlet class com.ibm.cdi.helloworld.HelloServlet
+707  [weld-worker-4] TRACE org.jboss.weld.Bean  - WELD-001536: Found [] constructors annotated with @Inject for [EnhancedAnnotatedTypeImpl] public @RequestScoped class com.ibm.cdi.helloworld.HelloBean
+707  [weld-worker-3] TRACE org.jboss.weld.Bean  - WELD-001536: Found [] constructors annotated with @Inject for [EnhancedAnnotatedTypeImpl] public @WebServlet class com.ibm.cdi.helloworld.HelloServlet
+709  [weld-worker-4] TRACE org.jboss.weld.Bean  - WELD-000002: Exactly one constructor ([EnhancedAnnotatedConstructorImpl] public com.ibm.cdi.helloworld.HelloBean()) defined, using it as the bean constructor for [EnhancedAnnotatedTypeImpl] public @RequestScoped class com.ibm.cdi.helloworld.HelloBean
+711  [weld-worker-3] TRACE org.jboss.weld.Bean  - WELD-000002: Exactly one constructor ([EnhancedAnnotatedConstructorImpl] public com.ibm.cdi.helloworld.HelloServlet()) defined, using it as the bean constructor for [EnhancedAnnotatedTypeImpl] public @WebServlet class com.ibm.cdi.helloworld.HelloServlet
+721  [weld-worker-6] TRACE org.jboss.weld.Bean  - WELD-000012: Building bean metadata for class com.ibm.cdi.helloworld.HelloBean
+721  [weld-worker-1] TRACE org.jboss.weld.Bean  - WELD-000012: Building bean metadata for class com.ibm.cdi.helloworld.HelloServlet
+723  [weld-worker-6] TRACE org.jboss.weld.Bean  - WELD-000010: Using qualifiers [@javax.enterprise.inject.Any(), @javax.enterprise.inject.Default()] for Managed Bean [class com.ibm.cdi.helloworld.HelloBean] with qualifiers [@Any @Default]
+724  [weld-worker-1] TRACE org.jboss.weld.Bean  - WELD-000010: Using qualifiers [@javax.enterprise.inject.Any(), @javax.enterprise.inject.Default()] for Managed Bean [class com.ibm.cdi.helloworld.HelloServlet] with qualifiers [@Any @Default]
+726  [weld-worker-6] TRACE org.jboss.weld.Bean  - WELD-000014: Using name null for Managed Bean [class com.ibm.cdi.helloworld.HelloBean] with qualifiers [@Any @Default]
+728  [weld-worker-1] TRACE org.jboss.weld.Bean  - WELD-000014: Using name null for Managed Bean [class com.ibm.cdi.helloworld.HelloServlet] with qualifiers [@Any @Default]
+729  [weld-worker-6] TRACE org.jboss.weld.Bean  - WELD-000016: Using scope interface javax.enterprise.context.RequestScoped for Managed Bean [class com.ibm.cdi.helloworld.HelloBean] with qualifiers [@Any @Default]
+730  [weld-worker-1] TRACE org.jboss.weld.Bean  - WELD-000016: Using scope interface javax.enterprise.context.Dependent for Managed Bean [class com.ibm.cdi.helloworld.HelloServlet] with qualifiers [@Any @Default]
+735  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%BoundConversationContext
+736  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+737  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+739  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%SingletonContext
+741  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+742  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default]
+743  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+745  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%HttpSessionDestructionContext
+746  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+747  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%EjbRequestContext
+749  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%RequestContext
+750  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Managed Bean [class com.ibm.cdi.helloworld.HelloBean] with qualifiers [@Any @Default]
+751  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%HttpSessionContext
+752  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%BoundSessionContext
+753  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Built-in Bean [java.security.Principal] with qualifiers [@Default]
+754  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%ApplicationContext
+756  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%BoundRequestContext
+757  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%HttpSession
+758  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%Conversation
+761  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+762  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+764  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%HttpRequestContext
+765  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Managed Bean [class com.ibm.cdi.helloworld.HelloServlet] with qualifiers [@Any @Default]
+767  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%ServletContext
+768  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+769  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%DependentContext
+771  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+772  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%HttpConversationContext
+773  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%HttpServletRequest
+788  [weld-worker-5] TRACE org.jboss.weld.Bean  - WELD-001542: Retrieving/generating proxy class org.jboss.weldx.enterprise.inject.Instance$Provider$1536155325$Proxy$_$$_Weld$Proxy$
+789  [weld-worker-3] TRACE org.jboss.weld.Bean  - WELD-001542: Retrieving/generating proxy class org.jboss.weldx.enterprise.event.Event$1390291796$Proxy$_$$_Weld$Proxy$
+791  [weld-worker-5] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public java.lang.String java.lang.Object.toString()
+792  [weld-worker-3] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public java.lang.String java.lang.Object.toString()
+793  [weld-worker-5] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract javax.enterprise.inject.Instance javax.enterprise.inject.Instance.select(java.lang.annotation.Annotation[])
+794  [weld-worker-3] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void javax.enterprise.event.Event.fire(java.lang.Object)
+796  [weld-worker-5] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract javax.enterprise.inject.Instance javax.enterprise.inject.Instance.select(java.lang.Class,java.lang.annotation.Annotation[])
+797  [weld-worker-3] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract javax.enterprise.event.Event javax.enterprise.event.Event.select(java.lang.annotation.Annotation[])
+800  [weld-worker-5] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract javax.enterprise.inject.Instance javax.enterprise.inject.Instance.select(javax.enterprise.util.TypeLiteral,java.lang.annotation.Annotation[])
+802  [weld-worker-3] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract javax.enterprise.event.Event javax.enterprise.event.Event.select(java.lang.Class,java.lang.annotation.Annotation[])
+804  [weld-worker-5] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract boolean javax.enterprise.inject.Instance.isUnsatisfied()
+806  [weld-worker-3] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract javax.enterprise.event.Event javax.enterprise.event.Event.select(javax.enterprise.util.TypeLiteral,java.lang.annotation.Annotation[])
+807  [weld-worker-5] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract boolean javax.enterprise.inject.Instance.isAmbiguous()
+809  [weld-worker-3] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void org.jboss.weld.interceptor.proxy.LifecycleMixin.lifecycle_mixin_$$_postConstruct()
+811  [weld-worker-5] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void javax.enterprise.inject.Instance.destroy(java.lang.Object)
+812  [weld-worker-3] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void org.jboss.weld.interceptor.proxy.LifecycleMixin.lifecycle_mixin_$$_preDestroy()
+813  [weld-worker-5] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract java.util.Iterator java.lang.Iterable.iterator()
+816  [weld-worker-5] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract java.lang.Object javax.inject.Provider.get()
+816  [weld-worker-3] TRACE org.jboss.weld.Bean  - WELD-001543: Created Proxy class of type class org.jboss.weldx.enterprise.event.Event$1390291796$Proxy$_$$_Weld$Proxy$ supporting interfaces [interface javax.enterprise.event.Event, interface java.io.Serializable, interface org.jboss.weld.interceptor.proxy.LifecycleMixin, interface org.jboss.weld.interceptor.util.proxy.TargetInstanceProxy, interface org.jboss.weld.bean.proxy.ProxyObject]
+817  [weld-worker-5] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void org.jboss.weld.interceptor.proxy.LifecycleMixin.lifecycle_mixin_$$_postConstruct()
+823  [weld-worker-5] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void org.jboss.weld.interceptor.proxy.LifecycleMixin.lifecycle_mixin_$$_preDestroy()
+826  [weld-worker-5] TRACE org.jboss.weld.Bean  - WELD-001543: Created Proxy class of type class org.jboss.weldx.enterprise.inject.Instance$Provider$1536155325$Proxy$_$$_Weld$Proxy$ supporting interfaces [interface javax.enterprise.inject.Instance, interface javax.inject.Provider, interface java.io.Serializable, interface org.jboss.weld.interceptor.proxy.LifecycleMixin, interface org.jboss.weld.interceptor.util.proxy.TargetInstanceProxy, interface org.jboss.weld.bean.proxy.ProxyObject]
+829  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000100: Weld initialized. Validating beans
+187391 [LargeThreadPool-thread-6] DEBUG org.jboss.weld.Reflection  - WELD-000620: interface javax.enterprise.inject.Intercepted is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+187394 [LargeThreadPool-thread-6] DEBUG org.jboss.weld.Reflection  - WELD-000620: interface javax.enterprise.inject.Decorated is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+187409 [LargeThreadPool-thread-6] TRACE org.jboss.weld.Bean  - WELD-001536: Found [] constructors annotated with @Inject for [EnhancedAnnotatedTypeImpl] public @WebServlet class com.ibm.cdi.helloworld.HelloServlet
+187411 [LargeThreadPool-thread-6] TRACE org.jboss.weld.Bean  - WELD-000002: Exactly one constructor ([EnhancedAnnotatedConstructorImpl] public com.ibm.cdi.helloworld.HelloServlet()) defined, using it as the bean constructor for [EnhancedAnnotatedTypeImpl] public @WebServlet class com.ibm.cdi.helloworld.HelloServlet
+187414 [LargeThreadPool-thread-6] TRACE org.jboss.weld.Bean  - WELD-001536: Found [] constructors annotated with @Inject for [EnhancedAnnotatedTypeImpl] public @WebServlet class com.ibm.cdi.helloworld.HelloServlet
+187416 [LargeThreadPool-thread-6] TRACE org.jboss.weld.Bean  - WELD-000002: Exactly one constructor ([EnhancedAnnotatedConstructorImpl] public com.ibm.cdi.helloworld.HelloServlet()) defined, using it as the bean constructor for [EnhancedAnnotatedTypeImpl] public @WebServlet class com.ibm.cdi.helloworld.HelloServlet
+187420 [LargeThreadPool-thread-6] TRACE org.jboss.weld.Bean  - WELD-001538: Created context instance for bean Managed Bean [class com.ibm.cdi.helloworld.HelloBean] with qualifiers [@Any @Default] identified as WELD%ManagedBean%STATIC_INSTANCE|TransactionTestEAR|com.ibm.cdi.helloworld.HelloBean|null|false
+187425 [LargeThreadPool-thread-6] TRACE org.jboss.weld.Bean  - WELD-001542: Retrieving/generating proxy class com.ibm.cdi.helloworld.HelloBean$Proxy$_$$_WeldClientProxy
+187430 [LargeThreadPool-thread-6] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public java.lang.String com.ibm.cdi.helloworld.HelloBean.hello()
+187432 [LargeThreadPool-thread-6] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public java.lang.String java.lang.Object.toString()
+187434 [LargeThreadPool-thread-6] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void org.jboss.weld.interceptor.proxy.LifecycleMixin.lifecycle_mixin_$$_postConstruct()
+187436 [LargeThreadPool-thread-6] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void org.jboss.weld.interceptor.proxy.LifecycleMixin.lifecycle_mixin_$$_preDestroy()
+0    [LargeThreadPool-thread-4] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+4    [LargeThreadPool-thread-4] INFO  org.jboss.weld.Version  - WELD-000900: SNAPSHOT
+323  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000124: Using 8 threads for bootstrap
+386  [LargeThreadPool-thread-4] WARN  org.jboss.weld.Interceptor  - WELD-001700: Interceptor annotation class javax.ejb.PostActivate not found, interception based on it is not enabled
+388  [LargeThreadPool-thread-4] WARN  org.jboss.weld.Interceptor  - WELD-001700: Interceptor annotation class javax.ejb.PrePassivate not found, interception based on it is not enabled
+389  [LargeThreadPool-thread-4] WARN  org.jboss.weld.Interceptor  - WELD-001700: Interceptor annotation class javax.interceptor.AroundConstruct not found, interception based on it is not enabled
+415  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%ApplicationContext
+421  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Reflection  - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+423  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%SingletonContext
+427  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundSessionContext
+430  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundConversationContext
+432  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundRequestContext
+434  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%RequestContext
+436  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%DependentContext
+437  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%HttpSessionContext
+439  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%HttpSessionDestructionContext
+441  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%HttpConversationContext
+442  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%HttpRequestContext
+444  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%EjbRequestContext
+493  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+495  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+498  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+499  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+566  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000103: Enabled alternatives for Weld BeanManager for TransactionTestEAR [bean count=2]: (empty collection)
+568  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000104: Enabled decorator types for Weld BeanManager for TransactionTestEAR [bean count=2]: (empty collection)
+569  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000105: Enabled interceptor types for Weld BeanManager for TransactionTestEAR [bean count=2]: (empty collection)
+585  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001542: Retrieving/generating proxy class org.jboss.weldx.transaction.UserTransaction$1742620069$Proxy$_$$_Weld$Proxy$
+604  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public java.lang.String java.lang.Object.toString()
+606  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void javax.transaction.UserTransaction.begin() throws javax.transaction.NotSupportedException,javax.transaction.SystemException
+609  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void javax.transaction.UserTransaction.commit() throws javax.transaction.HeuristicMixedException,javax.transaction.HeuristicRollbackException,java.lang.IllegalStateException,javax.transaction.RollbackException,java.lang.SecurityException,javax.transaction.SystemException
+612  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract int javax.transaction.UserTransaction.getStatus() throws javax.transaction.SystemException
+614  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void javax.transaction.UserTransaction.rollback() throws java.lang.IllegalStateException,java.lang.SecurityException,javax.transaction.SystemException
+616  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void javax.transaction.UserTransaction.setRollbackOnly() throws java.lang.IllegalStateException,javax.transaction.SystemException
+618  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void javax.transaction.UserTransaction.setTransactionTimeout(int) throws javax.transaction.SystemException
+620  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void org.jboss.weld.interceptor.proxy.LifecycleMixin.lifecycle_mixin_$$_postConstruct()
+622  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void org.jboss.weld.interceptor.proxy.LifecycleMixin.lifecycle_mixin_$$_preDestroy()
+627  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001543: Created Proxy class of type class org.jboss.weldx.transaction.UserTransaction$1742620069$Proxy$_$$_Weld$Proxy$ supporting interfaces [interface javax.transaction.UserTransaction, interface java.io.Serializable, interface org.jboss.weld.interceptor.proxy.LifecycleMixin, interface org.jboss.weld.interceptor.util.proxy.TargetInstanceProxy, interface org.jboss.weld.bean.proxy.ProxyObject]
+632  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001542: Retrieving/generating proxy class org.jboss.weld.security.Principal$2077653312$Proxy$_$$_Weld$Proxy$
+634  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public java.lang.String java.lang.Object.toString()
+636  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract boolean java.security.Principal.equals(java.lang.Object)
+637  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract java.lang.String java.security.Principal.getName()
+639  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract int java.security.Principal.hashCode()
+640  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void org.jboss.weld.interceptor.proxy.LifecycleMixin.lifecycle_mixin_$$_postConstruct()
+642  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void org.jboss.weld.interceptor.proxy.LifecycleMixin.lifecycle_mixin_$$_preDestroy()
+645  [LargeThreadPool-thread-4] TRACE org.jboss.weld.Bean  - WELD-001543: Created Proxy class of type class org.jboss.weld.security.Principal$2077653312$Proxy$_$$_Weld$Proxy$ supporting interfaces [interface java.security.Principal, interface java.io.Serializable, interface org.jboss.weld.interceptor.proxy.LifecycleMixin, interface org.jboss.weld.interceptor.util.proxy.TargetInstanceProxy, interface org.jboss.weld.bean.proxy.ProxyObject]
+666  [weld-worker-3] TRACE org.jboss.weld.Bean  - WELD-001536: Found [] constructors annotated with @Inject for [EnhancedAnnotatedTypeImpl] public @WebServlet class com.ibm.cdi.helloworld.HelloServlet
+666  [weld-worker-4] TRACE org.jboss.weld.Bean  - WELD-001536: Found [] constructors annotated with @Inject for [EnhancedAnnotatedTypeImpl] public @RequestScoped class com.ibm.cdi.helloworld.HelloBean
+670  [weld-worker-3] TRACE org.jboss.weld.Bean  - WELD-000002: Exactly one constructor ([EnhancedAnnotatedConstructorImpl] public com.ibm.cdi.helloworld.HelloServlet()) defined, using it as the bean constructor for [EnhancedAnnotatedTypeImpl] public @WebServlet class com.ibm.cdi.helloworld.HelloServlet
+671  [weld-worker-4] TRACE org.jboss.weld.Bean  - WELD-000002: Exactly one constructor ([EnhancedAnnotatedConstructorImpl] public com.ibm.cdi.helloworld.HelloBean()) defined, using it as the bean constructor for [EnhancedAnnotatedTypeImpl] public @RequestScoped class com.ibm.cdi.helloworld.HelloBean
+690  [weld-worker-3] TRACE org.jboss.weld.Bean  - WELD-001536: Found [] constructors annotated with @Inject for [EnhancedAnnotatedTypeImpl] public @WebServlet class com.ibm.cdi.helloworld.HelloServlet
+690  [weld-worker-4] TRACE org.jboss.weld.Bean  - WELD-001536: Found [] constructors annotated with @Inject for [EnhancedAnnotatedTypeImpl] public @RequestScoped class com.ibm.cdi.helloworld.HelloBean
+692  [weld-worker-3] TRACE org.jboss.weld.Bean  - WELD-000002: Exactly one constructor ([EnhancedAnnotatedConstructorImpl] public com.ibm.cdi.helloworld.HelloServlet()) defined, using it as the bean constructor for [EnhancedAnnotatedTypeImpl] public @WebServlet class com.ibm.cdi.helloworld.HelloServlet
+694  [weld-worker-4] TRACE org.jboss.weld.Bean  - WELD-000002: Exactly one constructor ([EnhancedAnnotatedConstructorImpl] public com.ibm.cdi.helloworld.HelloBean()) defined, using it as the bean constructor for [EnhancedAnnotatedTypeImpl] public @RequestScoped class com.ibm.cdi.helloworld.HelloBean
+705  [weld-worker-4] TRACE org.jboss.weld.Bean  - WELD-000012: Building bean metadata for class com.ibm.cdi.helloworld.HelloBean
+705  [weld-worker-5] TRACE org.jboss.weld.Bean  - WELD-000012: Building bean metadata for class com.ibm.cdi.helloworld.HelloServlet
+706  [weld-worker-4] TRACE org.jboss.weld.Bean  - WELD-000010: Using qualifiers [@javax.enterprise.inject.Any(), @javax.enterprise.inject.Default()] for Managed Bean [class com.ibm.cdi.helloworld.HelloBean] with qualifiers [@Any @Default]
+708  [weld-worker-5] TRACE org.jboss.weld.Bean  - WELD-000010: Using qualifiers [@javax.enterprise.inject.Any(), @javax.enterprise.inject.Default()] for Managed Bean [class com.ibm.cdi.helloworld.HelloServlet] with qualifiers [@Any @Default]
+709  [weld-worker-4] TRACE org.jboss.weld.Bean  - WELD-000014: Using name null for Managed Bean [class com.ibm.cdi.helloworld.HelloBean] with qualifiers [@Any @Default]
+711  [weld-worker-5] TRACE org.jboss.weld.Bean  - WELD-000014: Using name null for Managed Bean [class com.ibm.cdi.helloworld.HelloServlet] with qualifiers [@Any @Default]
+713  [weld-worker-4] TRACE org.jboss.weld.Bean  - WELD-000016: Using scope interface javax.enterprise.context.RequestScoped for Managed Bean [class com.ibm.cdi.helloworld.HelloBean] with qualifiers [@Any @Default]
+714  [weld-worker-5] TRACE org.jboss.weld.Bean  - WELD-000016: Using scope interface javax.enterprise.context.Dependent for Managed Bean [class com.ibm.cdi.helloworld.HelloServlet] with qualifiers [@Any @Default]
+718  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%BoundConversationContext
+719  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+720  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+721  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%SingletonContext
+723  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+724  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default]
+725  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+726  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%HttpSessionDestructionContext
+728  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+729  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%EjbRequestContext
+730  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%RequestContext
+731  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Managed Bean [class com.ibm.cdi.helloworld.HelloBean] with qualifiers [@Any @Default]
+733  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%HttpSessionContext
+734  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%BoundSessionContext
+735  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Built-in Bean [java.security.Principal] with qualifiers [@Default]
+736  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%ApplicationContext
+737  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%BoundRequestContext
+738  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%HttpSession
+740  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%Conversation
+741  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+742  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+744  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%HttpRequestContext
+745  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Managed Bean [class com.ibm.cdi.helloworld.HelloServlet] with qualifiers [@Any @Default]
+747  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%ServletContext
+748  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+749  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%DependentContext
+751  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+752  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%HttpConversationContext
+753  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000106: Bean: WELD%AbstractSyntheticBean%TransactionTestEAR%HttpServletRequest
+767  [weld-worker-8] TRACE org.jboss.weld.Bean  - WELD-001542: Retrieving/generating proxy class org.jboss.weldx.enterprise.event.Event$1390291796$Proxy$_$$_Weld$Proxy$
+768  [weld-worker-6] TRACE org.jboss.weld.Bean  - WELD-001542: Retrieving/generating proxy class org.jboss.weldx.enterprise.inject.Instance$Provider$1536155325$Proxy$_$$_Weld$Proxy$
+770  [weld-worker-8] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public java.lang.String java.lang.Object.toString()
+771  [weld-worker-6] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public java.lang.String java.lang.Object.toString()
+772  [weld-worker-8] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void javax.enterprise.event.Event.fire(java.lang.Object)
+773  [weld-worker-6] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract javax.enterprise.inject.Instance javax.enterprise.inject.Instance.select(java.lang.annotation.Annotation[])
+775  [weld-worker-8] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract javax.enterprise.event.Event javax.enterprise.event.Event.select(java.lang.annotation.Annotation[])
+776  [weld-worker-6] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract javax.enterprise.inject.Instance javax.enterprise.inject.Instance.select(java.lang.Class,java.lang.annotation.Annotation[])
+778  [weld-worker-8] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract javax.enterprise.event.Event javax.enterprise.event.Event.select(java.lang.Class,java.lang.annotation.Annotation[])
+780  [weld-worker-6] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract javax.enterprise.inject.Instance javax.enterprise.inject.Instance.select(javax.enterprise.util.TypeLiteral,java.lang.annotation.Annotation[])
+782  [weld-worker-8] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract javax.enterprise.event.Event javax.enterprise.event.Event.select(javax.enterprise.util.TypeLiteral,java.lang.annotation.Annotation[])
+784  [weld-worker-6] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract boolean javax.enterprise.inject.Instance.isUnsatisfied()
+785  [weld-worker-8] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void org.jboss.weld.interceptor.proxy.LifecycleMixin.lifecycle_mixin_$$_postConstruct()
+787  [weld-worker-6] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract boolean javax.enterprise.inject.Instance.isAmbiguous()
+788  [weld-worker-8] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void org.jboss.weld.interceptor.proxy.LifecycleMixin.lifecycle_mixin_$$_preDestroy()
+790  [weld-worker-6] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void javax.enterprise.inject.Instance.destroy(java.lang.Object)
+792  [weld-worker-6] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract java.util.Iterator java.lang.Iterable.iterator()
+792  [weld-worker-8] TRACE org.jboss.weld.Bean  - WELD-001543: Created Proxy class of type class org.jboss.weldx.enterprise.event.Event$1390291796$Proxy$_$$_Weld$Proxy$ supporting interfaces [interface javax.enterprise.event.Event, interface java.io.Serializable, interface org.jboss.weld.interceptor.proxy.LifecycleMixin, interface org.jboss.weld.interceptor.util.proxy.TargetInstanceProxy, interface org.jboss.weld.bean.proxy.ProxyObject]
+794  [weld-worker-6] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract java.lang.Object javax.inject.Provider.get()
+797  [weld-worker-6] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void org.jboss.weld.interceptor.proxy.LifecycleMixin.lifecycle_mixin_$$_postConstruct()
+799  [weld-worker-6] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void org.jboss.weld.interceptor.proxy.LifecycleMixin.lifecycle_mixin_$$_preDestroy()
+802  [weld-worker-6] TRACE org.jboss.weld.Bean  - WELD-001543: Created Proxy class of type class org.jboss.weldx.enterprise.inject.Instance$Provider$1536155325$Proxy$_$$_Weld$Proxy$ supporting interfaces [interface javax.enterprise.inject.Instance, interface javax.inject.Provider, interface java.io.Serializable, interface org.jboss.weld.interceptor.proxy.LifecycleMixin, interface org.jboss.weld.interceptor.util.proxy.TargetInstanceProxy, interface org.jboss.weld.bean.proxy.ProxyObject]
+805  [LargeThreadPool-thread-4] DEBUG org.jboss.weld.Bootstrap  - WELD-000100: Weld initialized. Validating beans
+12385 [LargeThreadPool-thread-6] DEBUG org.jboss.weld.Reflection  - WELD-000620: interface javax.enterprise.inject.Intercepted is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+12388 [LargeThreadPool-thread-6] DEBUG org.jboss.weld.Reflection  - WELD-000620: interface javax.enterprise.inject.Decorated is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+12403 [LargeThreadPool-thread-6] TRACE org.jboss.weld.Bean  - WELD-001536: Found [] constructors annotated with @Inject for [EnhancedAnnotatedTypeImpl] public @WebServlet class com.ibm.cdi.helloworld.HelloServlet
+12407 [LargeThreadPool-thread-6] TRACE org.jboss.weld.Bean  - WELD-000002: Exactly one constructor ([EnhancedAnnotatedConstructorImpl] public com.ibm.cdi.helloworld.HelloServlet()) defined, using it as the bean constructor for [EnhancedAnnotatedTypeImpl] public @WebServlet class com.ibm.cdi.helloworld.HelloServlet
+12411 [LargeThreadPool-thread-6] TRACE org.jboss.weld.Bean  - WELD-001536: Found [] constructors annotated with @Inject for [EnhancedAnnotatedTypeImpl] public @WebServlet class com.ibm.cdi.helloworld.HelloServlet
+12413 [LargeThreadPool-thread-6] TRACE org.jboss.weld.Bean  - WELD-000002: Exactly one constructor ([EnhancedAnnotatedConstructorImpl] public com.ibm.cdi.helloworld.HelloServlet()) defined, using it as the bean constructor for [EnhancedAnnotatedTypeImpl] public @WebServlet class com.ibm.cdi.helloworld.HelloServlet
+12417 [LargeThreadPool-thread-6] TRACE org.jboss.weld.Bean  - WELD-001538: Created context instance for bean Managed Bean [class com.ibm.cdi.helloworld.HelloBean] with qualifiers [@Any @Default] identified as WELD%ManagedBean%STATIC_INSTANCE|TransactionTestEAR|com.ibm.cdi.helloworld.HelloBean|null|false
+12423 [LargeThreadPool-thread-6] TRACE org.jboss.weld.Bean  - WELD-001542: Retrieving/generating proxy class com.ibm.cdi.helloworld.HelloBean$Proxy$_$$_WeldClientProxy
+12428 [LargeThreadPool-thread-6] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public java.lang.String com.ibm.cdi.helloworld.HelloBean.hello()
+12430 [LargeThreadPool-thread-6] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public java.lang.String java.lang.Object.toString()
+12431 [LargeThreadPool-thread-6] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void org.jboss.weld.interceptor.proxy.LifecycleMixin.lifecycle_mixin_$$_postConstruct()
+12436 [LargeThreadPool-thread-6] TRACE org.jboss.weld.Bean  - WELD-001541: Adding method to proxy: public abstract void org.jboss.weld.interceptor.proxy.LifecycleMixin.lifecycle_mixin_$$_preDestroy()
